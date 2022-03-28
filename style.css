@@ -28,14 +28,18 @@ nav>a{
 .livros{
     display: flex;
     flex-direction: row;
-   align-items: center;
+    align-items: center;
     justify-content: space-around;
+    max-width:100%;
+    max-height: 100%;
+    position: relative;
 }
 
 .imageLivro{
-    max-width:554px;
-    max-height: 563px;
-    object-position: 50% 50%;
+    max-width:50%;
+    max-height: 50%;
+    position: absolute;
+   
 }
 .conteudoPrincipal{
     display: flex;
