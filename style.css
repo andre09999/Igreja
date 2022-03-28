@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(53, 110, 179) ;
+}
+.logo2{
+    height: 50px;
+    width: 50px;
+}
+nav>a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 30px;
+}
+.livros{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    justify-content: space-around;
+}
+
+.imageLivro{
+    max-width:554px;
+    max-height: 563px;
+    object-position: 50% 50%;
+}
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.titulo{
+    color: rgb(6, 6, 85);
+    font-size: 32px;
+}
+.titulo2{
+    font-size: 20px;
+}
+button{
+    height: 50px;
+    width: 90px;
+}
+.espacoDoEndereço{
+    position: relative;
+    width: 90%;
+}
+.mapa{
+    
+    position: relative;
+    inset: 0%;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(245, 124, 44) ;
+    color: aliceblue;
+}
+.mapa>iframe{
+ padding: 40px;
+ 
+}
+.icones{
+    height: 30px;
+    width: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(53, 110, 179) ;
+    color: aliceblue;
+    padding: 50px;
+}
+.endereco{
+    width: 20%;
+}
+.logo1{
+   padding-right: 15px;
+
+}
+.criou{
+    font-size: 12px;
+}
