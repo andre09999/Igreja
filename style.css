@@ -108,7 +108,7 @@ padding-right: 30px;
     position: relative;
     width: 60vw;
     height: 40vw;
-    max-width: 380px;
+    width: 380px;
     max-height: 250px;
     margin: 0;
     color: rgba(255, 255, 255, 0);
@@ -301,7 +301,7 @@ padding-right: 30px;
    
 }
 iframe{
-   max-width: 720px;
+   max-width: 100%;
    padding: 50px;
 }
 #video{
@@ -309,4 +309,7 @@ iframe{
     background-repeat:no-repeat;
     background-position: center;
     background-size: contain;
+}
+#slide{
+    width: 100%;
 }

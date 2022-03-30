@@ -3,4 +3,4 @@ function classToggle() {
     el.classList.toggle('step-animation');
   }
   
-  document.querySelector('#toggle-animation').addEventListener('click', classToggle);
+document.querySelector('#toggle-animation').addEventListener('click', classToggle);
